@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
     Vector b;
     Vector u;
 
-    cout << "METODO DE LOS ELEMENTOS FINITOS EN DOS DIMENSIONES CON FUNCIONES DE FORMA LINEALES Y PESOS DE GALERKIN - 00167917\n\n";
+    cout << "METODO DE LOS ELEMENTOS FINITOS EN DOS DIMENSIONES CON FUNCIONES DE FORMA LINEALES Y PESOS DE GALERKIN -  00167917\n\n";
 
     mesh m;
     leerMallayCondiciones(m,filename);
@@ -43,6 +43,6 @@ int main(int argc, char *argv[])
 
     writeResults(m,u,filename);
 
-
+    
     return 0;
 }
